@@ -5,6 +5,19 @@
         <li><a href="{{url('courses')}}">Courses</a></li>
         <li><a href="{{url('blog')}}">Blog</a></li>
         <li><a href="{{url('contact')}}">Contact</a></li>
+        <li>
+            @if (Auth::check())
+                <a href="{{ route('logout') }}"
+                onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                Salir
+                </a>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                    @csrf
+                </form>
+            @else
+                <a href="{{ route('login') }}">Login</a>
+            @endif
+        </li>
     </ul>
     <div class="search_button">
         <i class="fa fa-search" aria-hidden="true"></i>
