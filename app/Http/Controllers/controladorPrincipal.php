@@ -1,13 +1,15 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\News;
 
 use Illuminate\Http\Request;
 
 class controladorPrincipal extends Controller
 {
     public function index(){
-        return view("pages.index");
+        $news = News::orderBy('created_at', 'desc')->get();
+        return view("pages.index",compact('news'));
     }
 
     public function about(){
@@ -15,7 +17,8 @@ class controladorPrincipal extends Controller
     }
 
     public function blog(){
-        return view("pages.blog");
+        $news = News::orderBy('created_at', 'desc')->get();
+        return view("pages.blog",compact('news'));
     }
 
     public function blog_single(){

@@ -835,125 +835,75 @@
     <!-- Latest News -->
 
     <div class="news">
-      <div class="container">
+    <div class="container">
         <div class="row">
-          <div class="col">
-            <div class="section_title_container text-center">
-              <h2 class="section_title">Latest News</h2>
-              <div class="section_subtitle">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices
-                  fermentum congue, quam velit venenatis sem
-                </p>
-              </div>
+            <div class="col">
+                <div class="section_title_container text-center">
+                    <h2 class="section_title">Últimas Noticias</h2>
+                    <div class="section_subtitle">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices
+                            fermentum congue, quam velit venenatis sem.
+                        </p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
+
         <div class="row news_row">
-          <div class="col-lg-7 news_col">
-            <!-- News Post Large -->
-            <div class="news_post_large_container">
-              <div class="news_post_large">
-                <div class="news_post_image">
-                  <img src="images/news_1.jpg" alt="" />
+            <!-- Post Destacado -->
+            @if($news->isNotEmpty())
+                <div class="col-lg-7 news_col">
+                    <div class="news_post_large_container">
+                        <div class="news_post_large">
+                            <div class="news_post_image">
+                                <img src="{{ asset($news[0]->image) }}" alt="{{ $news[0]->title }}" />
+                            </div>
+                            <div class="news_post_large_title">
+                                <a href="{{ route('news.show', $news[0]->id) }}">{{ $news[0]->title }}</a>
+                            </div>
+                            <div class="news_post_meta">
+                                <ul>
+                                    <li><a href="#">{{ $news[0]->author ?? 'Admin' }}</a></li>
+                                    <li><a href="#">{{ $news[0]->created_at->format('F d, Y') }}</a></li>
+                                </ul>
+                            </div>
+                            <div class="news_post_text">
+                                <p>{{ Str::limit($news[0]->content, 150) }}</p>
+                            </div>
+                            <div class="news_post_link">
+                                <a href="{{ route('news.show', $news[0]->id) }}">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="news_post_large_title">
-                  <a href="blog_single.html"
-                    >Here’s What You Need to Know About Online Testing for the
-                    ACT and SAT</a
-                  >
-                </div>
-                <div class="news_post_meta">
-                  <ul>
-                    <li><a href="#">admin</a></li>
-                    <li><a href="#">november 11, 2017</a></li>
-                  </ul>
-                </div>
-                <div class="news_post_text">
-                  <p>
-                    Policy analysts generally agree on a need for reform, but
-                    not on which path policymakers should take. Can America
-                    learn anything from other nations...
-                  </p>
-                </div>
-                <div class="news_post_link">
-                  <a href="blog_single.html">read more</a>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-lg-5 news_col">
-            <div class="news_posts_small">
-              <!-- News Posts Small -->
-              <div class="news_post_small">
-                <div class="news_post_small_title">
-                  <a href="blog_single.html"
-                    >Home-based business insurance issue (Spring 2017 -
-                    2018)</a
-                  >
+                <!-- Posts Pequeños -->
+                <div class="col-lg-5 news_col">
+                    <div class="news_posts_small">
+                        @foreach($news->slice(1, 4) as $post)
+                            <div class="news_post_small">
+                                <div class="news_post_small_title">
+                                    <a href="{{ route('news.show', $post->id) }}">{{ $post->title }}</a>
+                                </div>
+                                <div class="news_post_meta">
+                                    <ul>
+                                        <li><a href="#">{{ $post->author ?? 'Admin' }}</a></li>
+                                        <li><a href="#">{{ $post->created_at->format('F d, Y') }}</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        @endforeach
+                    </div>
                 </div>
-                <div class="news_post_meta">
-                  <ul>
-                    <li><a href="#">admin</a></li>
-                    <li><a href="#">november 11, 2017</a></li>
-                  </ul>
-                </div>
-              </div>
-
-              <!-- News Posts Small -->
-              <div class="news_post_small">
-                <div class="news_post_small_title">
-                  <a href="blog_single.html"
-                    >2018 Fall Issue: Credit Card Comparison Site Survey
-                    (Summer 2018)</a
-                  >
-                </div>
-                <div class="news_post_meta">
-                  <ul>
-                    <li><a href="#">admin</a></li>
-                    <li><a href="#">november 11, 2017</a></li>
-                  </ul>
-                </div>
-              </div>
-
-              <!-- News Posts Small -->
-              <div class="news_post_small">
-                <div class="news_post_small_title">
-                  <a href="blog_single.html"
-                    >Cuentas de cheques gratuitas una encuesta de Consumer
-                    Action</a
-                  >
-                </div>
-                <div class="news_post_meta">
-                  <ul>
-                    <li><a href="#">admin</a></li>
-                    <li><a href="#">november 11, 2017</a></li>
-                  </ul>
-                </div>
-              </div>
-
-              <!-- News Posts Small -->
-              <div class="news_post_small">
-                <div class="news_post_small_title">
-                  <a href="blog_single.html"
-                    >Troubled borrowers have fewer repayment or forgiveness
-                    options</a
-                  >
-                </div>
-                <div class="news_post_meta">
-                  <ul>
-                    <li><a href="#">admin</a></li>
-                    <li><a href="#">november 11, 2017</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+            @else
+                <p class="text-center">No hay noticias disponibles.</p>
+            @endif
         </div>
-      </div>
     </div>
+</div>
+
 
     <!-- Newsletter -->
 

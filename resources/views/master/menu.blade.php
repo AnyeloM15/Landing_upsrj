@@ -7,13 +7,7 @@
     <li class="menu_mm"><a href="{{url('/contact')}}">Contact</a></li>
     <li class="menu_mm">
     @if (Auth::check())
-        <a href="{{ route('logout') }}"
-           onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-           Salir
-        </a>
-        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-            @csrf
-        </form>
+        <a href="{{ route('dashboard') }}">Admin</a>
     @else
         <a href="{{ route('login') }}">Login</a>
     @endif

@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\controladorPrincipal;
+use App\Http\Controllers\NewsController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -33,3 +34,4 @@ Route::get('course', [controladorPrincipal::class, 'course'])->name('course.inde
 Route::get('courses', [controladorPrincipal::class, 'courses'])->name('courses.index');
 
 
+Route::resource('news', NewsController::class);
