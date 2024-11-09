@@ -1,0 +1,26 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+    
+    AddDefaultCharset UTF-8
+   
+    #RewriteCond %{HTTPS} !=on
+    #RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE] 
+
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+	RewriteCond %{REQUEST_URI} !(\.webp|\.min|\.otf|\.woff|\.mp4|\.css|\.js|\.png|\.jpeg|\.jpg|\.woff|\.woff2|\.json|\.gif|robots\.txt|\.ico)$ [NC]
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^ index.php [L]
+
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_URI} !^/public/
+	RewriteRule ^(plugins|styles|landing|lib|admin|dist|build|vendor|openpay|micuenta|assets|themes|video|img|css|js|storage|images|fonts|favicons|gulp|src|is|vendors)/(.*)$ public/$1/$2 [L,NC]
+
+</IfModule>
