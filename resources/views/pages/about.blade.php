@@ -1,10 +1,10 @@
 
 
 @extends('master.master')
+
+@section('css')
 <link rel="stylesheet" type="text/css" href="styles/about.css">
 <link rel="stylesheet" type="text/css" href="styles/about_responsive.css">
-@section('css')
-
 @endsection
 
 @section('body')
@@ -15,7 +15,7 @@
               <div class="col">
                 <div class="breadcrumbs">
                   <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index">Home</a></li>
                     <li>About</li>
                   </ul>
                 </div>
