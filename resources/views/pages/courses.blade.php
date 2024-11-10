@@ -247,11 +247,11 @@
 							<div class="sidebar_section_title">Categories</div>
 							<div class="sidebar_categories">
 								<ul>
-									<li><a href="#">Art & Design</a></li>
-									<li><a href="#">Business</a></li>
-									<li><a href="#">IT & Software</a></li>
-									<li><a href="#">Languages</a></li>
-									<li><a href="#">Programming</a></li>
+									<li><a href="#">Art & Design (IAEV)</a></li>
+									<li><a href="#">Physio teraphy (LTF)</a></li>
+									<li><a href="#">Software Engineering (ISW)</a></li>
+									<li><a href="#">Robotic (IRC)</a></li>
+									<li><a href="#">Automotive (ISA)</a></li>
 								</ul>
 							</div>
 						</div>
@@ -266,7 +266,7 @@
 									<div class="latest_image"><div><img src="images/latest_1.jpg" alt=""></div></div>
 									<div class="latest_content">
 										<div class="latest_title"><a href="course.html">How to Design a Logo a Beginners Course</a></div>
-										<div class="latest_price">Free</div>
+										<div class="latest_price">$</div>
 									</div>
 								</div>
 
@@ -275,7 +275,7 @@
 									<div class="latest_image"><div><img src="images/latest_2.jpg" alt=""></div></div>
 									<div class="latest_content">
 										<div class="latest_title"><a href="course.html">Photography for Beginners Masterclass</a></div>
-										<div class="latest_price">$170</div>
+										<div class="latest_price">$</div>
 									</div>
 								</div>
 
@@ -284,7 +284,7 @@
 									<div class="latest_image"><div><img src="images/latest_3.jpg" alt=""></div></div>
 									<div class="latest_content">
 										<div class="latest_title"><a href="course.html">The Secrets of Body Language</a></div>
-										<div class="latest_price">$220</div>
+										<div class="latest_price">$</div>
 									</div>
 								</div>
 
@@ -333,33 +333,6 @@
 										</a>
 									</li>
 								</ul>
-							</div>
-						</div>
-
-						<!-- Tags -->
-						<div class="sidebar_section">
-							<div class="sidebar_section_title">Tags</div>
-							<div class="sidebar_tags">
-								<ul class="tags_list">
-									<li><a href="#">creative</a></li>
-									<li><a href="#">unique</a></li>
-									<li><a href="#">photography</a></li>
-									<li><a href="#">ideas</a></li>
-									<li><a href="#">wordpress</a></li>
-									<li><a href="#">startup</a></li>
-								</ul>
-							</div>
-						</div>
-
-						<!-- Banner -->
-						<div class="sidebar_section">
-							<div class="sidebar_banner d-flex flex-column align-items-center justify-content-center text-center">
-								<div class="sidebar_banner_background" style="background-image:url(images/banner_1.jpg)"></div>
-								<div class="sidebar_banner_overlay"></div>
-								<div class="sidebar_banner_content">
-									<div class="banner_title">Free Book</div>
-									<div class="banner_button"><a href="#">download now</a></div>
-								</div>
 							</div>
 						</div>
 					</div>

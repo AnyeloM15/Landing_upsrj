@@ -7,195 +7,31 @@
 
 @endsection
 @section('body')
- <!-- Home -->
-
+<!-- Home -->
 <div class="home">
-      <div class="home_slider_container">
-        <!-- Home Slider -->
-        <div class="owl-carousel owl-theme home_slider">
-          <!-- Home Slider Item -->
-          <div class="owl-item">
-            <div
-              class="home_slider_background"
-              style="background-image: url(images/home_slider_1.jpg)"
-            ></div>
-            <div class="home_slider_content">
-              <div class="container">
-                <div class="row">
-                  <div class="col text-center">
-                    <div class="home_slider_title">
-                      The Premium System Education
-                    </div>
-                    <div class="home_slider_subtitle">
-                      Future Of Education Technology
-                    </div>
-                    <div class="home_slider_form_container">
-                      <form
-                        action="#"
-                        id="home_search_form_1"
-                        class="home_search_form d-flex flex-lg-row flex-column align-items-center justify-content-between"
-                      >
-                        <div
-                          class="d-flex flex-row align-items-center justify-content-start"
-                        >
-                          <input
-                            type="search"
-                            class="home_search_input"
-                            placeholder="Keyword Search"
-                            required="required"
-                          />
-                          <select
-                            class="dropdown_item_select home_search_input"
-                          >
-                            <option>Category Courses</option>
-                            <option>Category</option>
-                            <option>Category</option>
-                          </select>
-                          <select
-                            class="dropdown_item_select home_search_input"
-                          >
-                            <option>Select Price Type</option>
-                            <option>Price Type</option>
-                            <option>Price Type</option>
-                          </select>
-                        </div>
-                        <button type="submit" class="home_search_button">
-                          search
-                        </button>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
+  <div class="home_slider_container">
+    <div
+      class="home_slider_background"
+      style="background-image: url(images/home_slider.jpg)"
+    ></div>
+    <div class="home_slider_content">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <div class="home_slider_title" style="color: white;">
+              The international university
             </div>
-          </div>
-
-          <!-- Home Slider Item -->
-          <div class="owl-item">
-            <div
-              class="home_slider_background"
-              style="background-image: url(images/home_slider_1.jpg)"
-            ></div>
-            <div class="home_slider_content">
-              <div class="container">
-                <div class="row">
-                  <div class="col text-center">
-                    <div class="home_slider_title">
-                      The Premium System Education
-                    </div>
-                    <div class="home_slider_subtitle">
-                      Future Of Education Technology
-                    </div>
-                    <div class="home_slider_form_container">
-                      <form
-                        action="#"
-                        id="home_search_form_2"
-                        class="home_search_form d-flex flex-lg-row flex-column align-items-center justify-content-between"
-                      >
-                        <div
-                          class="d-flex flex-row align-items-center justify-content-start"
-                        >
-                          <input
-                            type="search"
-                            class="home_search_input"
-                            placeholder="Keyword Search"
-                            required="required"
-                          />
-                          <select
-                            class="dropdown_item_select home_search_input"
-                          >
-                            <option>Category Courses</option>
-                            <option>Category</option>
-                            <option>Category</option>
-                          </select>
-                          <select
-                            class="dropdown_item_select home_search_input"
-                          >
-                            <option>Select Price Type</option>
-                            <option>Price Type</option>
-                            <option>Price Type</option>
-                          </select>
-                        </div>
-                        <button type="submit" class="home_search_button">
-                          search
-                        </button>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Home Slider Item -->
-          <div class="owl-item">
-            <div
-              class="home_slider_background"
-              style="background-image: url(images/home_slider_1.jpg)"
-            ></div>
-            <div class="home_slider_content">
-              <div class="container">
-                <div class="row">
-                  <div class="col text-center">
-                    <div class="home_slider_title">
-                      The Premium System Education
-                    </div>
-                    <div class="home_slider_subtitle">
-                      Future Of Education Technology
-                    </div>
-                    <div class="home_slider_form_container">
-                      <form
-                        action="#"
-                        id="home_search_form_3"
-                        class="home_search_form d-flex flex-lg-row flex-column align-items-center justify-content-between"
-                      >
-                        <div
-                          class="d-flex flex-row align-items-center justify-content-start"
-                        >
-                          <input
-                            type="search"
-                            class="home_search_input"
-                            placeholder="Keyword Search"
-                            required="required"
-                          />
-                          <select
-                            class="dropdown_item_select home_search_input"
-                          >
-                            <option>Category Courses</option>
-                            <option>Category</option>
-                            <option>Category</option>
-                          </select>
-                          <select
-                            class="dropdown_item_select home_search_input"
-                          >
-                            <option>Select Price Type</option>
-                            <option>Price Type</option>
-                            <option>Price Type</option>
-                          </select>
-                        </div>
-                        <button type="submit" class="home_search_button">
-                          search
-                        </button>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="home_slider_subtitle" style="color: white;">
+              Future Of Education Technology
             </div>
           </div>
         </div>
       </div>
-
-      <!-- Home Slider Nav -->
-
-      <div class="home_slider_nav home_slider_prev">
-        <i class="fa fa-angle-left" aria-hidden="true"></i>
-      </div>
-      <div class="home_slider_nav home_slider_next">
-        <i class="fa fa-angle-right" aria-hidden="true"></i>
-      </div>
     </div>
+  </div>
+</div>
 
+  
     <!-- Features -->
 
     <div class="features">
@@ -203,7 +39,7 @@
         <div class="row">
           <div class="col">
             <div class="section_title_container text-center">
-              <h2 class="section_title">Welcome To Unicat E-Learning</h2>
+              <h2 class="section_title">Welcome To UPSRJ</h2>
               <div class="section_subtitle">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -420,13 +256,13 @@
     <div class="counter">
       <div
         class="counter_background"
-        style="background-image: url(images/counter_background.jpg)"
+        style="background-color: black"
       ></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
             <div class="counter_content">
-              <h2 class="counter_title">Register Now</h2>
+              <h2 class="counter_title" style="margin-top : 15px">Register Now</h2>
               <div class="counter_text">
                 <p>
                   Simply dummy text of the printing and typesetting industry.
@@ -436,46 +272,7 @@
                 </p>
               </div>
 
-              <!-- Milestones -->
 
-              <div
-                class="milestones d-flex flex-md-row flex-column align-items-center justify-content-between"
-              >
-                <!-- Milestone -->
-                <div class="milestone">
-                  <div class="milestone_counter" data-end-value="15">0</div>
-                  <div class="milestone_text">years</div>
-                </div>
-
-                <!-- Milestone -->
-                <div class="milestone">
-                  <div
-                    class="milestone_counter"
-                    data-end-value="120"
-                    data-sign-after="k"
-                  >
-                    0
-                  </div>
-                  <div class="milestone_text">years</div>
-                </div>
-
-                <!-- Milestone -->
-                <div class="milestone">
-                  <div
-                    class="milestone_counter"
-                    data-end-value="670"
-                    data-sign-after="+"
-                  >
-                    0
-                  </div>
-                  <div class="milestone_text">years</div>
-                </div>
-
-                <!-- Milestone -->
-                <div class="milestone">
-                  <div class="milestone_counter" data-end-value="320">0</div>
-                  <div class="milestone_text">years</div>
-                </div>
               </div>
             </div>
           </div>
@@ -839,7 +636,7 @@
         <div class="row">
             <div class="col">
                 <div class="section_title_container text-center">
-                    <h2 class="section_title">Últimas Noticias</h2>
+                    <h2 class="section_title">Lastest news</h2>
                     <div class="section_subtitle">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -898,60 +695,10 @@
                     </div>
                 </div>
             @else
-                <p class="text-center">No hay noticias disponibles.</p>
+                <p class="text-center">There are not news.</p>
             @endif
         </div>
     </div>
 </div>
-
-
-    <!-- Newsletter -->
-
-    <div class="newsletter">
-      <div
-        class="newsletter_background parallax-window"
-        data-parallax="scroll"
-        data-image-src="images/newsletter.jpg"
-        data-speed="0.8"
-      ></div>
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div
-              class="newsletter_container d-flex flex-lg-row flex-column align-items-center justify-content-start"
-            >
-              <!-- Newsletter Content -->
-              <div class="newsletter_content text-lg-left text-center">
-                <div class="newsletter_title">
-                  sign up for news and offers
-                </div>
-                <div class="newsletter_subtitle">
-                  Subcribe to lastest smartphones news & great deals we offer
-                </div>
-              </div>
-
-              <!-- Newsletter Form -->
-              <div class="newsletter_form_container ml-lg-auto">
-                <form
-                  action="#"
-                  id="newsletter_form"
-                  class="newsletter_form d-flex flex-row align-items-center justify-content-center"
-                >
-                  <input
-                    type="email"
-                    class="newsletter_input"
-                    placeholder="Your Email"
-                    required="required"
-                  />
-                  <button type="submit" class="newsletter_button">
-                    subscribe
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
 
 @endsection

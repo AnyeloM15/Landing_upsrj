@@ -33,16 +33,16 @@
                       <li><div class="question">Have any questions?</div></li>
                       <li>
                         <i class="fa fa-phone" aria-hidden="true"></i>
-                        <div>001-1234-88888</div>
+                        <div>442-123-1234</div>
                       </li>
                       <li>
                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                        <div>info.deercreative@gmail.com</div>
+                        <div>UPSRJ@upsrj.edu.mx</div>
                       </li>
                     </ul>
                     <div class="top_bar_login ml-auto">
                       <div class="login_button">
-                        <a href="#">Register or Login</a>
+                        <a href="https://upsrj.edu.mx/sistemaintegral/web/alumnos.php/" target="_blank">SAI</a>
                       </div>
                     </div>
                   </div>
@@ -54,23 +54,26 @@
 
         <!-- Header Content -->
         <div class="header_container">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div
-                  class="header_content d-flex flex-row align-items-center justify-content-start"
-                >
-                  <div class="logo_container">
-                    <a href="#">
-                      <div class="logo_text">Unic<span>at</span></div>
-                    </a>
-                  </div>
-                  @include('master.nav')
-                </div>
-              </div>
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div
+          class="header_content d-flex flex-row align-items-center justify-content-start"
+        >
+          <div class="logo_container">
+            <a href="#">
+              <img src="{{ asset('images/logo.png') }}" alt="Logo" width="250 " height="auto">
+            </a>
           </div>
+          @include('master.nav')
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 
         <!-- Header Search Panel -->
         <div class="header_search_container">
@@ -145,11 +148,9 @@
                     <!-- Footer About -->
                     <div class="footer_section footer_about">
                       <div class="footer_logo_container">
-                        <a href="#">
-                          <div class="footer_logo_text">
-                            Unic<span>at</span>
-                          </div>
-                        </a>
+                      <a href="#">
+                        <img src="{{ asset('images/footer_logo.png') }}" alt="Footer Logo" width="150" height="auto">
+                      </a>
                       </div>
                       <div class="footer_about_text">
                         <p>
@@ -193,10 +194,10 @@
                       <div class="footer_title">Contact Us</div>
                       <div class="footer_contact_info">
                         <ul>
-                          <li>Email: Info.deercreative@gmail.com</li>
-                          <li>Phone: +(88) 111 555 666</li>
+                          <li>Email: UPSRJ@upsrj.edu.com</li>
+                          <li>Phone: +(442) 111 555 666</li>
                           <li>
-                            40 Baria Sreet 133/2 New York City, United States
+                            Santa Rosa Jauregui, Queretaro, Qro.
                           </li>
                         </ul>
                       </div>
@@ -206,17 +207,15 @@
                   <div class="col-lg-3 footer_col">
                     <!-- Footer links -->
                     <div class="footer_section footer_links">
-                      <div class="footer_title">Contact Us</div>
+                      <div class="footer_title">Links</div>
                       <div class="footer_links_container">
                         <ul>
-                          <li><a href="index.html">Home</a></li>
-                          <li><a href="about.html">About</a></li>
-                          <li><a href="contact.html">Contact</a></li>
-                          <li><a href="#">Features</a></li>
-                          <li><a href="courses.html">Courses</a></li>
-                          <li><a href="#">Events</a></li>
-                          <li><a href="#">Gallery</a></li>
-                          <li><a href="#">FAQs</a></li>
+                          <li><a href="{{url('/')}}">Home</a></li>
+                          <li><a href="{{url('/about')}}">About</a></li>
+                          <li><a href="{{url('/courses')}}">Courses</a></li>
+                          <li><a href="{{url('/blog')}}">Blog</a></li>
+                          <li><a href="{{url('/contact')}}">Contact</a></li>
+                          
                         </ul>
                       </div>
                     </div>
@@ -224,19 +223,6 @@
 
                   <div class="col-lg-3 footer_col clearfix">
                     <!-- Footer links -->
-                    <div class="footer_section footer_mobile">
-                      <div class="footer_title">Mobile</div>
-                      <div class="footer_mobile_content">
-                        <div class="footer_image">
-                          <a href="#"
-                            ><img src="images/mobile_1.png" alt=""
-                          /></a>
-                        </div>
-                        <div class="footer_image">
-                          <a href="#"
-                            ><img src="images/mobile_2.png" alt=""
-                          /></a>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -245,38 +231,12 @@
             </div>
           </div>
 
-          <div class="row copyright_row">
-            <div class="col">
-              <div
-                class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start"
-              >
-                <div class="cr_text">
-                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                  Copyright &copy;
-                  <script>
-                    document.write(new Date().getFullYear());
-                  </script>
-                  All rights reserved | This template is made with
-                  <i class="fa fa-heart-o" aria-hidden="true"></i> by
-                  <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                </div>
-                <div class="ml-lg-auto cr_links">
-                  <ul class="cr_list">
-                    <li><a href="#">Copyright notification</a></li>
-                    <li><a href="#">Terms of Use</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+          
       </footer>
     </div>
 
 
-     <script src="{{url('/')}}/js/jquery-3.2.1.min.js"></script>
+    <script src="{{url('/')}}/js/jquery-3.2.1.min.js"></script>
     <script src="{{url('/')}}/styles/bootstrap4/popper.js"></script>
     <script src="{{url('/')}}/styles/bootstrap4/bootstrap.min.js"></script>
     <script src="{{url('/')}}/plugins/greensock/TweenMax.min.js"></script>

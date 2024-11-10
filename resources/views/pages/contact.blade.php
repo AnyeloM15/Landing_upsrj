@@ -20,7 +20,7 @@
               <div class="col">
                 <div class="breadcrumbs">
                   <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index">Home</a></li>
                     <li>Contact</li>
                   </ul>
                 </div>
@@ -103,24 +103,15 @@
                   </div>
                   <div class="contact_info_location">
                     <div class="contact_info_location_title">
-                      New York Office
+                      Queretaro
                     </div>
                     <ul class="location_list">
-                      <li>T8/480 Collins St, Melbourne VIC 3000, New York</li>
-                      <li>1-234-567-89011</li>
-                      <li>info.deercreative@gmail.com</li>
+                      <li>Carretera Federal 57, km 31+150, S/N Santa Rosa Jáuregui, 76220 Santiago de Querétaro, Qro.</li>
+                      <li>+52 442-123-1234</li>
+                      <li>upsrj@upsrj.edu.mx</li>
                     </ul>
                   </div>
-                  <div class="contact_info_location">
-                    <div class="contact_info_location_title">
-                      Australia Office
-                    </div>
-                    <ul class="location_list">
-                      <li>Forrest Ray, 191-103 Integer Rd, Corona Australia</li>
-                      <li>1-234-567-89011</li>
-                      <li>info.deercreative@gmail.com</li>
-                    </ul>
-                  </div>
+                
                 </div>
               </div>
             </div>
