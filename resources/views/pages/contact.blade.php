@@ -38,15 +38,7 @@
         <div class="contact_map">
           <!-- Google Map -->
 
-          <div class="map">
-            <div id="google_map" class="google_map">
-              <div class="map_container">
-                <div id="map"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17033.412111110338!2d-100.42869031519243!3d20.835586812565214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d4a626e79f1fc9%3A0xdda7c4672995c724!2sPolit%C3%A9cnica%20de%20Santa%20Rosa!5e1!3m2!1ses!2smx!4v1731358115825!5m2!1ses!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <!-- Contact Info -->
 
         <div class="contact_info_container">
@@ -95,10 +87,7 @@
                   <div class="contact_info_title">Contact Info</div>
                   <div class="contact_info_text">
                     <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. The point of using Lorem Ipsum is that it
-                      has a distribution of letters.
+                    Get in touch with the Universidad Politécnica de Santa Rosa Jáuregui to learn more about our academic programs, innovative BIS Model, and commitment to sustainability and inclusivity. We're here to answer your questions and assist you. Connect with us today to discover everything UPSRJ has to offer!
                     </p>
                   </div>
                   <div class="contact_info_location">
@@ -120,8 +109,3 @@
       </div>
       @endsection
 
-      @section('js')
-      <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
-    <script src="plugins/marker_with_label/marker_with_label.js"></script>
-    <script src="js/contact.js"></script>
-      @endsection

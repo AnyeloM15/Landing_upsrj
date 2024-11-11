@@ -15,6 +15,8 @@
     
     @yield('css')
   </head>
+  <link rel="icon" href="https://upsrj.edu.mx/wp-content/uploads/2019/06/isoheartHistoria.png" type="image/x-icon">
+
   <body>
     <div class="super_container">
       <!-- Header -->
@@ -154,8 +156,7 @@
                       </div>
                       <div class="footer_about_text">
                         <p>
-                          Lorem ipsum dolor sit ametium, consectetur adipiscing
-                          elit.
+Universidad Politecnicas Santa Rosa Jauregui
                         </p>
                       </div>
                       <div class="footer_social">
