@@ -32,11 +32,10 @@
           <div class="row">
             <div class="col">
               <div class="section_title_container text-center">
-                <h2 class="section_title">Welcome To Unicat E-Learning</h2>
+                <h2 class="section_title">Welcome To UPSRJ</h2>
                 <div class="section_subtitle">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec vel gravida arcu Vestibulum
+                    The first bilingual university in Querétaro, Mexico.
                   </p>
                 </div>
               </div>
@@ -49,12 +48,10 @@
                 <div class="about_item_image">
                   <img src="images/about_1.jpg" alt="" />
                 </div>
-                <div class="about_item_title"><a href="#">Our Stories</a></div>
+                <div class="about_item_title"><a href="#">We are bilingual</a></div>
                 <div class="about_item_text">
                   <p>
-                    Lorem ipsum dolor sit , consectet adipisi elit, sed do
-                    eiusmod tempor for enim en consectet adipisi elit, sed do
-                    consectet adipisi elit, sed doadesg.
+                  Our bilingual curriculum immerses students in a second language from the start, with courses mainly taught in English or Spanish. An intensive language program in the first semester and ongoing reinforcement ensure graduates are fluent.
                   </p>
                 </div>
               </div>
@@ -66,12 +63,10 @@
                 <div class="about_item_image">
                   <img src="images/about_2.jpg" alt="" />
                 </div>
-                <div class="about_item_title"><a href="#">Our Mission</a></div>
+                <div class="about_item_title"><a href="#">We are international</a></div>
                 <div class="about_item_text">
                   <p>
-                    Lorem ipsum dolor sit , consectet adipisi elit, sed do
-                    eiusmod tempor for enim en consectet adipisi elit, sed do
-                    consectet adipisi elit, sed doadesg.
+                  Internationalization is integral to our campus life. Students can undertake internships abroad, benefit from visiting lecturers, and participate in joint research with global institutions, all aimed at fostering a world-ready education.
                   </p>
                 </div>
               </div>
@@ -83,12 +78,10 @@
                 <div class="about_item_image">
                   <img src="images/about_3.jpg" alt="" />
                 </div>
-                <div class="about_item_title"><a href="#">Our Vision</a></div>
+                <div class="about_item_title"><a href="#">We are sustainable</a></div>
                 <div class="about_item_text">
                   <p>
-                    Lorem ipsum dolor sit , consectet adipisi elit, sed do
-                    eiusmod tempor for enim en consectet adipisi elit, sed do
-                    consectet adipisi elit, sed doadesg.
+                  Sustainability guides every part of our mission. Our Sustainable University model promotes education that raises awareness, encourages eco-friendly practices, and prepares students to make informed, positive environmental impacts.
                   </p>
                 </div>
               </div>
@@ -111,9 +104,7 @@
                 <h2 class="section_title">Why Choose Us</h2>
                 <div class="section_subtitle">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices
-                    fermentum congue, quam velit venenatis sem
+                    Thanks to its Bilingual, International and Sustainable model, studying with us is to widen your opportunities and to be part of a global community. Enhance your habilities, expand your knowledge and get ready to take your place in the future and fulfill all of your professional goals.
                   </p>
                 </div>
               </div>
@@ -128,14 +119,11 @@
                   <div class="elements_accordions">
                     <div class="accordion_container">
                       <div class="accordion d-flex flex-row align-items-center">
-                        <div>Award for Best School 2017</div>
+                        <div style="font-size: 11pt">Avant-garde and Competent University</div>
                       </div>
                       <div class="accordion_panel">
                         <p>
-                          Lorem Ipsum has been the industry's standard dummy
-                          text ever since the 1500s, when an unknown printer
-                          took a galley of type and scrambled it to make a type
-                          specimen book.
+                          -
                         </p>
                       </div>
                     </div>
@@ -144,42 +132,33 @@
                       <div
                         class="accordion d-flex flex-row align-items-center active"
                       >
-                        <div>You’re learning from the best.</div>
+                        <div style="font-size: 11pt">Bilingual Learners Today, World Citizens Tomorrow</div>
                       </div>
                       <div class="accordion_panel">
                         <p>
-                          Lorem Ipsum has been the industry's standard dummy
-                          text ever since the 1500s, when an unknown printer
-                          took a galley of type and scrambled it to make a type
-                          specimen book.
+                          -
                         </p>
                       </div>
                     </div>
 
                     <div class="accordion_container">
                       <div class="accordion d-flex flex-row align-items-center">
-                        <div>Our degrees are recognized worldwide.</div>
+                        <div style="font-size: 11pt">Inclusive model supporting all kinds of students</div>
                       </div>
                       <div class="accordion_panel">
                         <p>
-                          Lorem Ipsum has been the industry's standard dummy
-                          text ever since the 1500s, when an unknown printer
-                          took a galley of type and scrambled it to make a type
-                          specimen book.
+                          -
                         </p>
                       </div>
                     </div>
 
                     <div class="accordion_container">
                       <div class="accordion d-flex flex-row align-items-center">
-                        <div>We encourage our students to go global.</div>
+                        <div style="font-size: 11pt">International scholarships to study and learn abroad</div>
                       </div>
                       <div class="accordion_panel">
                         <p>
-                          Lorem Ipsum has been the industry's standard dummy
-                          text ever since the 1500s, when an unknown printer
-                          took a galley of type and scrambled it to make a type
-                          specimen book.
+                          -
                         </p>
                       </div>
                     </div>
@@ -200,161 +179,11 @@
                 ></div>
                 <a
                   class="vimeo feature_video_button"
-                  href="https://player.vimeo.com/video/99340873?title=0"
+                  href="https://youtu.be/MDGzhbQ349s?si=fJ-q1OTQteUicQJe"
                   title="OH, PORTUGAL - IN 4K - Basti Hansen - Stock Footage"
                 >
                   <img src="images/play.png" alt="" />
                 </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Team -->
-
-      <div class="team">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <div class="section_title_container text-center">
-                <h2 class="section_title">The Best Tutors in Town</h2>
-                <div class="section_subtitle">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices
-                    fermentum congue, quam velit venenatis sem
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row team_row">
-            <!-- Team Item -->
-            <div class="col-lg-3 col-md-6 team_col">
-              <div class="team_item">
-                <div class="team_image">
-                  <img src="images/team_1.jpg" alt="" />
-                </div>
-                <div class="team_body">
-                  <div class="team_title"><a href="#">Jacke Masito</a></div>
-                  <div class="team_subtitle">Marketing & Management</div>
-                  <div class="social_list">
-                    <ul>
-                      <li>
-                        <a href="#"
-                          ><i class="fa fa-facebook" aria-hidden="true"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          ><i class="fa fa-twitter" aria-hidden="true"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          ><i class="fa fa-google-plus" aria-hidden="true"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Team Item -->
-            <div class="col-lg-3 col-md-6 team_col">
-              <div class="team_item">
-                <div class="team_image">
-                  <img src="images/team_2.jpg" alt="" />
-                </div>
-                <div class="team_body">
-                  <div class="team_title"><a href="#">William James</a></div>
-                  <div class="team_subtitle">Designer & Website</div>
-                  <div class="social_list">
-                    <ul>
-                      <li>
-                        <a href="#"
-                          ><i class="fa fa-facebook" aria-hidden="true"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          ><i class="fa fa-twitter" aria-hidden="true"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          ><i class="fa fa-google-plus" aria-hidden="true"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Team Item -->
-            <div class="col-lg-3 col-md-6 team_col">
-              <div class="team_item">
-                <div class="team_image">
-                  <img src="images/team_3.jpg" alt="" />
-                </div>
-                <div class="team_body">
-                  <div class="team_title"><a href="#">John Tyler</a></div>
-                  <div class="team_subtitle">Quantum mechanics</div>
-                  <div class="social_list">
-                    <ul>
-                      <li>
-                        <a href="#"
-                          ><i class="fa fa-facebook" aria-hidden="true"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          ><i class="fa fa-twitter" aria-hidden="true"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          ><i class="fa fa-google-plus" aria-hidden="true"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Team Item -->
-            <div class="col-lg-3 col-md-6 team_col">
-              <div class="team_item">
-                <div class="team_image">
-                  <img src="images/team_4.jpg" alt="" />
-                </div>
-                <div class="team_body">
-                  <div class="team_title"><a href="#">Veronica Vahn</a></div>
-                  <div class="team_subtitle">Math & Physics</div>
-                  <div class="social_list">
-                    <ul>
-                      <li>
-                        <a href="#"
-                          ><i class="fa fa-facebook" aria-hidden="true"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          ><i class="fa fa-twitter" aria-hidden="true"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          ><i class="fa fa-google-plus" aria-hidden="true"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -375,10 +204,7 @@
                 <h2 class="counter_title">Register Now</h2>
                 <div class="counter_text">
                   <p>
-                    Simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry’s standard dumy text ever
-                    since the 1500s, when an unknown printer took a galley of
-                    type and scrambled it to make a type specimen book.
+                  Join a community dedicated to innovation, global awareness, and sustainability. At [University Name], you’ll gain the skills, knowledge, and experiences needed to excel in today’s fast-paced world. Whether you're interested in technology, science, the arts, or sustainable practices, we offer a supportive environment with international opportunities and a bilingual education designed to make you stand out.
                   </p>
                 </div>
 
@@ -402,7 +228,7 @@
                     >
                       0
                     </div>
-                    <div class="milestone_text">years</div>
+                    <div class="milestone_text">students</div>
                   </div>
 
                   <!-- Milestone -->
@@ -414,13 +240,13 @@
                     >
                       0
                     </div>
-                    <div class="milestone_text">years</div>
+                    <div class="milestone_text">teachers</div>
                   </div>
 
                   <!-- Milestone -->
                   <div class="milestone">
-                    <div class="milestone_counter" data-end-value="320">0</div>
-                    <div class="milestone_text">years</div>
+                    <div class="milestone_counter" data-end-value="6">0</div>
+                    <div class="milestone_text">courses</div>
                   </div>
                 </div>
               </div>
@@ -434,7 +260,7 @@
                   class="counter_form_content d-flex flex-column align-items-center justify-content-center"
                   action="#"
                 >
-                  <div class="counter_form_title">courses now</div>
+                  <div class="counter_form_title">contact now</div>
                   <input
                     type="text"
                     class="counter_input"
@@ -453,9 +279,8 @@
                     class="counter_input counter_options"
                   >
                     <option>Choose Subject</option>
-                    <option>Subject</option>
-                    <option>Subject</option>
-                    <option>Subject</option>
+                    <option>Admission</option>
+                    <option>Information</option>  
                   </select>
                   <textarea
                     class="counter_input counter_text_input"

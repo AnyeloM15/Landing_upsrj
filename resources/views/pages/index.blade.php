@@ -19,10 +19,10 @@
         <div class="row">
           <div class="col text-center">
             <div class="home_slider_title" style="color: white;">
-              The international university
+              UPSRJ
             </div>
             <div class="home_slider_subtitle" style="color: white;">
-              Future Of Education Technology
+              BIS university
             </div>
           </div>
         </div>
@@ -42,9 +42,7 @@
               <h2 class="section_title">Welcome To UPSRJ</h2>
               <div class="section_subtitle">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices
-                  fermentum congue, quam velit venenatis sem
+                  Discover a university that combines expert faculty, world-class resources, and a supportive learning environment to help you reach your goals.
                 </p>
               </div>
             </div>
@@ -59,7 +57,8 @@
               </div>
               <h3 class="feature_title">The Experts</h3>
               <div class="feature_text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p>Learn from experienced professionals and researchers who are leaders in their fields and dedicated to your success.
+                </p>
               </div>
             </div>
           </div>
@@ -72,7 +71,8 @@
               </div>
               <h3 class="feature_title">Book & Library</h3>
               <div class="feature_text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p>Access an extensive library with both physical and digital resources to support your studies and fuel your curiosity.
+                </p>
               </div>
             </div>
           </div>
@@ -85,7 +85,8 @@
               </div>
               <h3 class="feature_title">Best Courses</h3>
               <div class="feature_text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p>Choose from a range of programs that combine practical skills with academic excellence to prepare you for a successful career.
+                </p>
               </div>
             </div>
           </div>
@@ -98,7 +99,8 @@
               </div>
               <h3 class="feature_title">Award & Reward</h3>
               <div class="feature_text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p>Earn recognition for your achievements through various scholarships, awards, and honors that celebrate excellence.
+                </p>
               </div>
             </div>
           </div>
@@ -119,12 +121,10 @@
         <div class="row">
           <div class="col">
             <div class="section_title_container text-center">
-              <h2 class="section_title">Popular Online Courses</h2>
+              <h2 class="section_title">Popular Courses</h2>
               <div class="section_subtitle">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices
-                  fermentum congue, quam velit venenatis sem
+                Explore our most sought-after programs, designed to equip you with in-demand skills and knowledge across a range of fields. From technology and engineering to business and the arts, our courses are crafted to ensure you excel in your chosen career path.
                 </p>
               </div>
             </div>
@@ -244,79 +244,7 @@
         <div class="row">
           <div class="col">
             <div class="courses_button trans_200">
-              <a href="#">view all courses</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Counter -->
-
-    <div class="counter">
-      <div
-        class="counter_background"
-        style="background-color: black"
-      ></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="counter_content">
-              <h2 class="counter_title" style="margin-top : 15px">Register Now</h2>
-              <div class="counter_text">
-                <p>
-                  Simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry’s standard dumy text ever
-                  since the 1500s, when an unknown printer took a galley of
-                  type and scrambled it to make a type specimen book.
-                </p>
-              </div>
-
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="counter_form">
-          <div class="row fill_height">
-            <div class="col fill_height">
-              <form
-                class="counter_form_content d-flex flex-column align-items-center justify-content-center"
-                action="#"
-              >
-                <div class="counter_form_title">courses now</div>
-                <input
-                  type="text"
-                  class="counter_input"
-                  placeholder="Your Name:"
-                  required="required"
-                />
-                <input
-                  type="tel"
-                  class="counter_input"
-                  placeholder="Phone:"
-                  required="required"
-                />
-                <select
-                  name="counter_select"
-                  id="counter_select"
-                  class="counter_input counter_options"
-                >
-                  <option>Choose Subject</option>
-                  <option>Subject</option>
-                  <option>Subject</option>
-                  <option>Subject</option>
-                </select>
-                <textarea
-                  class="counter_input counter_text_input"
-                  placeholder="Message:"
-                  required="required"
-                ></textarea>
-                <button type="submit" class="counter_form_button">
-                  submit now
-                </button>
-              </form>
+              <a href="courses">view all courses</a>
             </div>
           </div>
         </div>
@@ -333,9 +261,7 @@
               <h2 class="section_title">Upcoming events</h2>
               <div class="section_subtitle">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices
-                  fermentum congue, quam velit venenatis sem
+                  Take part on the events that we have prepared for you. We are expecting a lot of people so invite all your friends and relatives so that they get to know what we do and have a good time!
                 </p>
               </div>
             </div>
@@ -355,27 +281,26 @@
                   <div
                     class="d-flex flex-column align-items-center justify-content-center trans_200"
                   >
-                    <div class="event_day trans_200">21</div>
-                    <div class="event_month trans_200">Aug</div>
+                    <div class="event_day trans_200">20</div>
+                    <div class="event_month trans_200">Sep</div>
                   </div>
                 </div>
                 <div class="event_content">
                   <div class="event_title">
-                    <a href="#">Which Country Handles Student Debt?</a>
+                    <a href="#">All Terrain 8th Ed.</a>
                   </div>
                   <div class="event_info_container">
                     <div class="event_info">
                       <i class="fa fa-clock-o" aria-hidden="true"></i
-                      ><span>15.00 - 19.30</span>
+                      ><span>11.00 - 16.30</span>
                     </div>
                     <div class="event_info">
                       <i class="fa fa-map-marker" aria-hidden="true"></i
-                      ><span>25 New York City</span>
+                      ><span>UPSRJ</span>
                     </div>
                     <div class="event_text">
                       <p>
-                        Policy analysts generally agree on a need for reform,
-                        but not on which path...
+                        Excinting racing event where several universities get to participate to conquer all the terrains...
                       </p>
                     </div>
                   </div>
@@ -397,29 +322,28 @@
                   <div
                     class="d-flex flex-column align-items-center justify-content-center trans_200"
                   >
-                    <div class="event_day trans_200">27</div>
-                    <div class="event_month trans_200">Aug</div>
+                    <div class="event_day trans_200">01</div>
+                    <div class="event_month trans_200">Nov</div>
                   </div>
                 </div>
                 <div class="event_content">
                   <div class="event_title">
                     <a href="#"
-                      >Repaying your student loans (Winter 2017-2018)</a
+                      >Fall Fest 2024</a
                     >
                   </div>
                   <div class="event_info_container">
                     <div class="event_info">
                       <i class="fa fa-clock-o" aria-hidden="true"></i
-                      ><span>09.00 - 17.30</span>
+                      ><span>09.00 - 18.00</span>
                     </div>
                     <div class="event_info">
                       <i class="fa fa-map-marker" aria-hidden="true"></i
-                      ><span>25 Brooklyn City</span>
+                      ><span>UPSRJ</span>
                     </div>
                     <div class="event_text">
                       <p>
-                        This Consumer Action News issue covers topics now
-                        being debated before...
+                        Amusing event where we gather to celebrate the fall season. There will be food, music, costume contest & more...
                       </p>
                     </div>
                   </div>
@@ -441,186 +365,29 @@
                   <div
                     class="d-flex flex-column align-items-center justify-content-center trans_200"
                   >
-                    <div class="event_day trans_200">01</div>
-                    <div class="event_month trans_200">Sep</div>
+                    <div class="event_day trans_200">20</div>
+                    <div class="event_month trans_200">Nov</div>
                   </div>
                 </div>
                 <div class="event_content">
                   <div class="event_title">
-                    <a href="#">Alternative data and financial inclusion</a>
+                    <a href="#">Techonolgy / Health / Humanities Colloquium</a>
                   </div>
                   <div class="event_info_container">
                     <div class="event_info">
                       <i class="fa fa-clock-o" aria-hidden="true"></i
-                      ><span>13.00 - 18.30</span>
+                      ><span>14.00 - 18.00</span>
                     </div>
                     <div class="event_info">
                       <i class="fa fa-map-marker" aria-hidden="true"></i
-                      ><span>25 New York City</span>
+                      ><span>Bloque Qro</span>
                     </div>
                     <div class="event_text">
                       <p>
-                        Policy analysts generally agree on a need for reform,
-                        but not on which path...
+                        A series of conferences where we will discuss the latest advances in technology, health and humanities.
                       </p>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Team -->
-
-    <div class="team">
-      <div
-        class="team_background parallax-window"
-        data-parallax="scroll"
-        data-image-src="images/team_background.jpg"
-        data-speed="0.8"
-      ></div>
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="section_title_container text-center">
-              <h2 class="section_title">The Best Tutors in Town</h2>
-              <div class="section_subtitle">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices
-                  fermentum congue, quam velit venenatis sem
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row team_row">
-          <!-- Team Item -->
-          <div class="col-lg-3 col-md-6 team_col">
-            <div class="team_item">
-              <div class="team_image">
-                <img src="images/team_1.jpg" alt="" />
-              </div>
-              <div class="team_body">
-                <div class="team_title"><a href="#">Jacke Masito</a></div>
-                <div class="team_subtitle">Marketing & Management</div>
-                <div class="social_list">
-                  <ul>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-facebook" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-twitter" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-google-plus" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Team Item -->
-          <div class="col-lg-3 col-md-6 team_col">
-            <div class="team_item">
-              <div class="team_image">
-                <img src="images/team_2.jpg" alt="" />
-              </div>
-              <div class="team_body">
-                <div class="team_title"><a href="#">William James</a></div>
-                <div class="team_subtitle">Designer & Website</div>
-                <div class="social_list">
-                  <ul>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-facebook" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-twitter" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-google-plus" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Team Item -->
-          <div class="col-lg-3 col-md-6 team_col">
-            <div class="team_item">
-              <div class="team_image">
-                <img src="images/team_3.jpg" alt="" />
-              </div>
-              <div class="team_body">
-                <div class="team_title"><a href="#">John Tyler</a></div>
-                <div class="team_subtitle">Quantum mechanics</div>
-                <div class="social_list">
-                  <ul>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-facebook" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-twitter" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-google-plus" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Team Item -->
-          <div class="col-lg-3 col-md-6 team_col">
-            <div class="team_item">
-              <div class="team_image">
-                <img src="images/team_4.jpg" alt="" />
-              </div>
-              <div class="team_body">
-                <div class="team_title"><a href="#">Veronica Vahn</a></div>
-                <div class="team_subtitle">Math & Physics</div>
-                <div class="social_list">
-                  <ul>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-facebook" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-twitter" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-google-plus" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>
@@ -636,12 +403,10 @@
         <div class="row">
             <div class="col">
                 <div class="section_title_container text-center">
-                    <h2 class="section_title">Lastest news</h2>
+                    <h2 class="section_title">Latest news</h2>
                     <div class="section_subtitle">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices
-                            fermentum congue, quam velit venenatis sem.
+                            Stay up to date to what is relevant to our community. Read our newsletter and share it with your friends so that none of you misses out on the latest news.
                         </p>
                     </div>
                 </div>
