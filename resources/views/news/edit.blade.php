@@ -38,13 +38,24 @@
                     @if($news->image)
                         <img src="{{ asset($news->image) }}" alt="Imagen de la noticia" class="img-thumbnail mt-2" width="150">
                     @endif
+                </div>
 
+                <div class="mb-3">
+                    <label for="status" class="form-label">Estatus</label>
+                    <select name="status" id="status" class="form-control">
+                        <option value="En Revisión" {{ old('status', $news->status) == 'En Revisión' ? 'selected' : '' }}>En Revisión</option>
+                        <option value="Activo" {{ old('status', $news->status) == 'Activo' ? 'selected' : '' }}>Activo</option>
+                        <option value="Rechazado" {{ old('status', $news->status) == 'Rechazado' ? 'selected' : '' }}>Rechazado</option>
+                        <option value="Dado de Baja" {{ old('status', $news->status) == 'Dado de Baja' ? 'selected' : '' }}>Dado de Baja</option>
+                    </select>
                 </div>
 
                 <div class="form-check mb-3">
                     <input type="checkbox" name="active" id="active" class="form-check-input" {{ old('active', $news->active) ? 'checked' : '' }}>
                     <label for="active" class="form-check-label">Activo</label>
                 </div>
+
+
 
                 <button type="submit" class="btn btn-primary">Actualizar Noticia</button>
             </form>

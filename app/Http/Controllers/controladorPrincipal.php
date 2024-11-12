@@ -8,7 +8,8 @@ use Illuminate\Http\Request;
 class controladorPrincipal extends Controller
 {
     public function index(){
-        $news = News::orderBy('created_at', 'desc')->get();
+        //$news = News::orderBy('created_at', 'desc')->get();
+        $news = News::where('status', 'Activo')->orderBy('created_at', 'desc')->get();
         return view("pages.index",compact('news'));
     }
 
@@ -17,7 +18,7 @@ class controladorPrincipal extends Controller
     }
 
     public function blog(){
-        $news = News::orderBy('created_at', 'desc')->get();
+        $news = News::where('status', 'Activo')->orderBy('created_at', 'desc')->get();
         return view("pages.blog",compact('news'));
     }
 

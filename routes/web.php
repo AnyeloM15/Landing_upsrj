@@ -28,6 +28,10 @@ Route::get('contact', [controladorPrincipal::class, 'contact'])->name('contact.i
 Route::get('course', [controladorPrincipal::class, 'course'])->name('course.index');
 Route::get('courses', [controladorPrincipal::class, 'courses'])->name('courses.index');
 
+<<<<<<< HEAD
 // Rutas de NewsController
+=======
+Route::patch('news/{id}/update-status', [NewsController::class, 'updateStatus'])->name('news.updateStatus');
+>>>>>>> 83c846f (STATUS ROLES)
 Route::resource('news', NewsController::class);
 Route::patch('news/{id}/update-status', [NewsController::class, 'updateStatus'])->name('news.updateStatus');
