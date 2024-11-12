@@ -201,7 +201,7 @@
               </div>
             </div>
           </div>
-         
+        
 
           <!-- Course -->
           <div class="col-lg-4 course_col">
@@ -414,55 +414,54 @@
         </div>
 
         <div class="row news_row">
-            <!-- Post Destacado -->
-            @if($news->isNotEmpty())
-                <div class="col-lg-7 news_col">
-                    <div class="news_post_large_container">
-                        <div class="news_post_large">
-                            <div class="news_post_image">
-                                <img src="{{ asset($news[0]->image) }}" alt="{{ $news[0]->title }}" />
-                            </div>
-                            <div class="news_post_large_title">
-                                <a href="{{ route('news.show', $news[0]->id) }}">{{ $news[0]->title }}</a>
-                            </div>
-                            <div class="news_post_meta">
-                                <ul>
-                                    <li><a href="#">{{ $news[0]->author ?? 'Admin' }}</a></li>
-                                    <li><a href="#">{{ $news[0]->created_at->format('F d, Y') }}</a></li>
-                                </ul>
-                            </div>
-                            <div class="news_post_text">
-                                <p>{{ Str::limit($news[0]->content, 150) }}</p>
-                            </div>
-                            <div class="news_post_link">
-                                <a href="{{ route('news.show', $news[0]->id) }}">Leer más</a>
-                            </div>
+    <!-- Post Destacado -->
+    @if($news->isNotEmpty())
+            <div class="col-lg-7 news_col">
+                <div class="news_post_large_container">
+                    <div class="news_post_large">
+                        <div class="news_post_image">
+                            <img src="{{ asset($news[0]->image) }}" alt="{{ $news[0]->title }}" />
+                        </div>
+                        <div class="news_post_large_title">
+                            <a href="{{ route('news.show', $news[0]->id) }}">{{ $news[0]->title }}</a>
+                        </div>
+                        <div class="news_post_meta">
+                            <ul>
+                                <li><a href="#">{{ $news[0]->author ?? 'Admin' }}</a></li>
+                                <li><a href="#">{{ $news[0]->created_at->format('F d, Y') }}</a></li>
+                            </ul>
+                        </div>
+                        <div class="news_post_text">
+                            <p>{{ Str::limit($news[0]->content, 150) }}</p>
+                        </div>
+                        <div class="news_post_link">
+                            <a href="{{ route('news.show', $news[0]->id) }}">Leer más</a>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- Posts Pequeños -->
-                <div class="col-lg-5 news_col">
-                    <div class="news_posts_small">
-                        @foreach($news->slice(1, 4) as $post)
-                            <div class="news_post_small">
-                                <div class="news_post_small_title">
-                                    <a href="{{ route('news.show', $post->id) }}">{{ $post->title }}</a>
-                                </div>
-                                <div class="news_post_meta">
-                                    <ul>
-                                        <li><a href="#">{{ $post->author ?? 'Admin' }}</a></li>
-                                        <li><a href="#">{{ $post->created_at->format('F d, Y') }}</a></li>
-                                    </ul>
-                                </div>
+        <!-- Posts Pequeños -->
+        <div class="col-lg-5 news_col">
+                <div class="news_posts_small">
+                    @foreach($news->slice(1, 4) as $post)
+                        <div class="news_post_small">
+                            <div class="news_post_small_title">
+                                <a href="{{ route('news.show', $post->id) }}">{{ $post->title }}</a>
                             </div>
-                        @endforeach
-                    </div>
+                            <div class="news_post_meta">
+                                <ul>
+                                    <li><a href="#">{{ $post->author ?? 'Admin' }}</a></li>
+                                    <li><a href="#">{{ $post->created_at->format('F d, Y') }}</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    @endforeach
                 </div>
-            @else
-                <p class="text-center">There are not news.</p>
-            @endif
-        </div>
+            </div>
+        @else
+            <p class="text-center">No hay noticias disponibles.</p>
+        @endif
     </div>
 </div>
 

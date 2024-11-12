@@ -9,10 +9,10 @@ class NewsController extends Controller
 {
     public function index()
     {
-        $news = News::all();
+        $news = News::all(); // En el dashboard mostramos todas las noticias
         return view('news.index', compact('news'));
     }
-
+    
     public function create()
     {
         return view('news.create');
@@ -30,14 +30,12 @@ class NewsController extends Controller
         $news->title = $request->input('title');
         $news->content = $request->input('content');
         $news->author = $request->input('author');
-        $news->active = $request->has('active') ? 1 : 0;
+        $news->status = 0; // Establecer estatus por defecto a "en revisión" (0)
 
-        // Guardar la imagen en \public\images\news si existe
+        // Guardar la imagen si existe
         if ($request->hasFile('image')) {
             $imageName = time() . '_' . $request->file('image')->getClientOriginalName();
             $request->file('image')->move(public_path('images/news'), $imageName);
-
-            // Almacena la ruta relativa en la base de datos
             $news->image = 'images/news/' . $imageName;
         }
 
@@ -46,7 +44,14 @@ class NewsController extends Controller
         return redirect()->route('news.index')->with('success', 'Noticia creada exitosamente');
     }
 
+    public function updateStatus(Request $request, $id)
+    {
+        $news = News::findOrFail($id);
+        $news->status = $request->status;
+        $news->save();
 
+        return redirect()->route('news.index')->with('success', 'Estatus de la noticia actualizado exitosamente');
+    }
 
     public function edit(News $news)
     {
@@ -61,15 +66,10 @@ class NewsController extends Controller
             'image' => 'nullable|image|mimes:jpeg,png,jpg|max:2048'
         ]);
 
-        // Asigna 1 si el checkbox está marcado, de lo contrario asigna 0
-        $active = $request->has('active') ? 1 : 0;
-
-        // Actualiza los campos de la noticia
         $news->title = $request->input('title');
         $news->content = $request->input('content');
         $news->author = $request->input('author');
-        $news->active = $active;
-
+        
         // Si hay una nueva imagen, guarda el archivo en la carpeta especificada
         if ($request->hasFile('image')) {
             // Eliminar la imagen anterior si existe
@@ -90,16 +90,12 @@ class NewsController extends Controller
         return redirect()->route('news.index')->with('success', 'Noticia actualizada exitosamente');
     }
 
-
     public function show($id)
     {
-        // Obtiene la noticia según su ID
-        $news = News::findOrFail($id);
-
-        // Retorna la vista de detalle de la noticia
+        // Solo mostrar noticias aprobadas en la vista pública
+        $news = News::where('id', $id)->where('status', 1)->firstOrFail();
         return view('news.show', compact('news'));
     }
-
 
     public function destroy(News $news)
     {
