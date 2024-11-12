@@ -175,7 +175,7 @@
               >
                 <div
                   class="feature_video_background"
-                  style="background-image: url(images/video.jpg)"
+                  style="background-image: url(images/video1.jpg)"
                 ></div>
                 <a
                   class="vimeo feature_video_button"

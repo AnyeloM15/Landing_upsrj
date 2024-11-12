@@ -38,6 +38,4 @@ class controladorPrincipal extends Controller
     }
 
 
-
-
 }

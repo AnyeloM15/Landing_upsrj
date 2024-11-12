@@ -121,10 +121,10 @@
         <div class="row">
           <div class="col">
             <div class="section_title_container text-center">
-              <h2 class="section_title">Popular Courses</h2>
+              <h2 class="section_title">Our careers</h2>
               <div class="section_subtitle">
                 <p>
-                Explore our most sought-after programs, designed to equip you with in-demand skills and knowledge across a range of fields. From technology and engineering to business and the arts, our courses are crafted to ensure you excel in your chosen career path.
+                  These are the careers that we offer. Choose the one that best suits your interests and start your journey to success.
                 </p>
               </div>
             </div>
@@ -135,17 +135,16 @@
           <div class="col-lg-4 course_col">
             <div class="course">
               <div class="course_image">
-                <img src="images/course_1.jpg" alt="" />
+                <img src="images/isw_logo.png" alt="" />
               </div>
               <div class="course_body">
                 <h3 class="course_title">
                   <a href="course.html">Software Training</a>
                 </h3>
-                <div class="course_teacher">Mr. John Taylor</div>
+                <div class="course_teacher"></div>
                 <div class="course_text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipi elitsed do
-                    eiusmod tempor
+                    Our Software Training program is designed to provide students with the skills and knowledge to become a successful software developer.
                   </p>
                 </div>
               </div>
@@ -171,11 +170,11 @@
           <div class="col-lg-4 course_col">
             <div class="course">
               <div class="course_image">
-                <img src="images/course_2.jpg" alt="" />
+                <img src="images/iaev.png" alt="" />
               </div>
               <div class="course_body">
                 <h3 class="course_title">
-                  <a href="course.html">Developing Mobile Apps</a>
+                  <a href="course.html">Animation and visual effects</a>
                 </h3>
                 <div class="course_teacher">Ms. Lucius</div>
                 <div class="course_text">
@@ -202,12 +201,13 @@
               </div>
             </div>
           </div>
+         
 
           <!-- Course -->
           <div class="col-lg-4 course_col">
             <div class="course">
               <div class="course_image">
-                <img src="images/course_3.jpg" alt="" />
+                <img src="images/irc.png " alt="" />
               </div>
               <div class="course_body">
                 <h3 class="course_title">
@@ -272,7 +272,7 @@
           <div class="col-lg-4 event_col">
             <div class="event event_left">
               <div class="event_image">
-                <img src="images/event_1.jpg" alt="" />
+                <img src="images/evento1.jpg" alt="" />
               </div>
               <div
                 class="event_body d-flex flex-row align-items-start justify-content-start"
@@ -356,7 +356,7 @@
           <div class="col-lg-4 event_col">
             <div class="event event_right">
               <div class="event_image">
-                <img src="images/event_3.jpg" alt="" />
+                <img src="images/evento3.jpg" alt="" />
               </div>
               <div
                 class="event_body d-flex flex-row align-items-start justify-content-start"

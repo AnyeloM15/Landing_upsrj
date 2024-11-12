@@ -53,7 +53,7 @@
 								<div class="course">
 									<div class="course_image"><img src="images/course_4.jpg" alt=""></div>
 									<div class="course_body">
-										<h3 class="course_title"><a href="course.html">Software Engineering </a></h3>
+										<h3 class="course_title"><a href="">Software Engineering </a></h3>
 										<div class="course_teacher">PhD Juan Antonio Cruz Mandujano
 										</div>
 										<div class="course_text">
