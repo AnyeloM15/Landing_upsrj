@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\News;
+use App\Models\Role;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
 class NewsController extends Controller
@@ -44,9 +45,10 @@ class NewsController extends Controller
 
     public function edit(News $news)
     {
+       
 
         // Verifica si el usuario está autenticado y tiene el rol 'admin'
-        if (auth()->user()->role->name !== 'admin') {
+        if (auth()->user()->role_id != 1 ) {
             abort(403, 'This action is unauthorized.');
         }
 
