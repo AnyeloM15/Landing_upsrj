@@ -8,8 +8,7 @@
       type="text/css"
       href="styles/contact_responsive.css"
     />
-
-    @endsection
+@endsection
     @section('body')
       <!-- Home -->
 
@@ -100,7 +99,6 @@
                       <li>upsrj@upsrj.edu.mx</li>
                     </ul>
                   </div>
-                
                 </div>
               </div>
             </div>

@@ -7,23 +7,24 @@ use Illuminate\Support\Facades\DB;
 
 class CreateRolesTable extends Migration
 {
-    /**
-     * Run the migrations.
-     */
+    
+
     public function up(): void
     {
-        Schema::create('roles', function (Blueprint $table) {
-            $table->id(); // ID del rol
-            $table->string('name')->unique(); // Nombre del rol
-            $table->timestamps(); // Campos created_at y updated_at
-        });
-
-        // Insertar roles predeterminados
-        DB::table('roles')->insert([
-            ['id' => 1, 'name' => 'admin'],
-            ['id' => 2, 'name' => 'user'],
-        ]);
+        if (!Schema::hasTable('roles')) {
+            Schema::create('roles', function (Blueprint $table) {
+                $table->id();
+                $table->string('name')->unique();
+                $table->timestamps();
+            });
+    
+            DB::table('roles')->insert([
+                ['id' => 1, 'name' => 'admin'],
+                ['id' => 2, 'name' => 'user'],
+            ]);
+        }
     }
+
 
     /**
      * Reverse the migrations.

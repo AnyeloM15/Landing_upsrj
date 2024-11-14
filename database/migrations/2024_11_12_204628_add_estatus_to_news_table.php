@@ -13,7 +13,7 @@ class AddEstatusToNewsTable extends Migration
     {
         Schema::table('news', function (Blueprint $table) {
             // Agregar la columna estatus
-            $table->enum('status', ['En Revisión', 'Activo', 'Rechazado', 'Dado de Baja'])->default('En Revisión')->after('content'); // Se coloca después de la columna 'content' por ejemplo
+            $table->enum(column: 'status', allowed: ['En Revisión', 'Activo', 'Rechazado', 'Dado de Baja'])->default(value: 'En Revisión')->after(column: 'content');// Se coloca después de la columna 'content' por ejemplo
         });
     }
 

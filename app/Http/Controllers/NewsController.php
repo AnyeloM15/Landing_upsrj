@@ -45,7 +45,7 @@ class NewsController extends Controller
 
     public function edit(News $news)
     {
-       
+    
 
         // Verifica si el usuario está autenticado y tiene el rol 'admin'
         if (auth()->user()->role_id != 1 ) {
