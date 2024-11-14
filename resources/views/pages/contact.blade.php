@@ -30,7 +30,7 @@
       </div>
 
       <!-- Contact -->
-
+<div>
       <div class="contact">
         <!-- Contact Map -->
 
@@ -105,5 +105,6 @@
           </div>
         </div>
       </div>
+</div>
       @endsection
 
