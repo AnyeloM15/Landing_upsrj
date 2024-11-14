@@ -134,7 +134,6 @@
         @include('master.menu')
       </div>
 
-     
       @yield('body')
 
       <!-- Footer -->
@@ -156,7 +155,7 @@
                       </div>
                       <div class="footer_about_text">
                         <p>
-Universidad Politecnicas Santa Rosa Jauregui
+                          Universidad Politecnicas Santa Rosa Jauregui
                         </p>
                       </div>
                       <div class="footer_social">

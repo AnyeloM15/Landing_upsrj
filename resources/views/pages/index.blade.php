@@ -397,8 +397,8 @@
     </div>
 
     <!-- Latest News -->
-
-    <div class="news">
+  
+  <div class="news">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -463,6 +463,7 @@
             <p class="text-center">No hay noticias disponibles.</p>
         @endif
     </div>
+  </div>
 </div>
 
 @endsection
